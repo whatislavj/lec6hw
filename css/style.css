@@ -1,17 +1,48 @@
-.topBorder {
+.task1 {
     margin: 8px 32px 32px 16px;
     padding: 32px 16px;
     border: 1px solid rgb(0, 0, 0);
 }
 
-.pd :first-child{
+.task2 :first-child{
     color: blueviolet;
 }
 
-.pd :nth-child(3){
+.task2 :nth-child(3){
     color: darkgoldenrod;
 }
 
-.pd :last-child{
+.task2 :last-child{
     color: darkorange;
+}
+
+.task3 {
+    height: 75px;
+    width: 75px;
+    border: 1px solid rgb(0, 0, 0);
+}
+
+.task3:hover {
+    border-color: rgb(255, 0, 0);
+}
+
+.task4 {
+    height: 50px;
+    width: 250px;
+    background-color: red;
+}
+
+.task4 > div {
+    margin: auto;
+    height: 50%;
+    width: 25%;
+    background-color: blue;
+}
+
+.task5::before {
+    content: "before ";
+}
+
+.task5::after {
+    content: " after";
 }
